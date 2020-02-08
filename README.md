@@ -12,5 +12,23 @@ Explore Good News about Seoul, Korea Apartment Price
     - 기사 트렌드와 실거래가 트렌드 관계 분석
 - 추후 작업 내용
     - 관련 데이터 조사
+        - 부동산 기사 데이터
+        - 매매가 데이터
+        - (계획) 부동산 정책 공고 데이터
     - 데이터별 확보 방안
+        - 스크래핑, API
     - 데이터 관리 방안
+        - 우선 개인 드라이브에 업로드 후 공유
+        - 관리방안 세워야 함.
+    - 데이터 탐색 (과정)
+        - 기사 데이터
+            - 연도별 부동산 관련 키워드 추출
+            - 활용 라이브러리: konlpy, soynlp, kr-wordrank, khaiii
+        - 매매가 데이터
+            - 시계열 트렌드 확인
+
+--------------
+참고
+1. Jupyter Lab 사용
+- pip install jupyterlab
+- "> jupyter lab"
